@@ -1,6 +1,6 @@
 'use strict';
 
-var Submission = require('./models/submissions,js');
+var Submission = require('./models/submissions.js');
 
 var entries= [
   'nammm',
@@ -11,13 +11,13 @@ var entries= [
 ];
 
 entries.forEach(function(Submission, index){
-  Submission.find({'name': entries}, function(err, entries){
-    if(!err && !entries.length){
+  //submission.find({'name': entries}, function(err, entries){
+    if(!entries.length){
       Submission.create({name: hannah,
       email: hannahhotmail.com,
       phone: 8593266666,
-      address: 'asdf fsdfs', 
+      address: 'asdf fsdfs',
       newsletter: true})
-    };
-  });
+
+  };
 });
