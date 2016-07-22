@@ -4,19 +4,7 @@
   <title>J Elliott Heating and Air Giveaway</title>
   <link rel="stylesheet" href="css/normalize.min.css">
   <link rel="stylesheet" href="css/main.css">
-  <script>
-  var xhr= new XMLHttpRequest();
-  xhr.onreadystatechange= function () {
 
-      document.getElementById('form').innerHTML= xhr.responseText;
-
-  };
-  xhr.open('GET', 'form.html');
-  function sendAJAX(){
-    xhr.send();
-    document.getElementById('form').style.display= 'none';
-  }
-  </script>
 </head>
 <body>
 
@@ -65,9 +53,21 @@
     <footer class="wrapper">
       <p>&copy; HannahElliott 2016</p>
     </footer>
+    <script>
+    var xhr= new XMLHttpRequest();
+    xhr.onreadystatechange= function () {
 
+        document.getElementById('form').innerHTML= xhr.responseText;
+
+    };
+    xhr.open('GET', 'form.html');
+    function sendAJAX(){
+      xhr.send();
+      document.getElementById('form').style.display= 'none';
+    }
+    </script>
     <script src="https://code.jquery.com/jquery-1.6.2.min.js"></script>
-    <script src="public/js/vendor/angular.min.js"></script>
+    <script src="js/vendor/angular.min.js"></script>
 
 </body>
 </html>
