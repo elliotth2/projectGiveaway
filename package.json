@@ -1,0 +1,25 @@
+{
+  "name": "rrrrrrrr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "jade": "^1.11.0",
+    "mongoose": "^4.5.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elliotth2/projectGiveaway.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elliotth2/projectGiveaway/issues"
+  },
+  "homepage": "https://github.com/elliotth2/projectGiveaway#readme"
+}
