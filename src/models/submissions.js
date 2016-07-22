@@ -2,7 +2,7 @@
 
 var mongoose= require('mongoose');
 
-var schema = new mongose.Schema({
+var schema = new mongoose.Schema({
   name: String,
   email: String,
   phone: Number,
@@ -12,4 +12,4 @@ var schema = new mongose.Schema({
 
 var model = mongoose.model('Submission', schema);
 
-module.exports= model; 
+module.exports= model;
