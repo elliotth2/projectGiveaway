@@ -6,6 +6,9 @@ var app = express();
 app.set('view engine', 'jade');
 app.set('views', __dirname + '/templates');
 
+app.use('/', express.static('public'));
+
+
 app.get('/', function(req, res){
   res.render("index");
 });
