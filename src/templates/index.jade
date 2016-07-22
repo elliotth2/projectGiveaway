@@ -1,0 +1,40 @@
+doctype html
+html
+  head
+    title J Elliott Heating and Air Giveaway
+    link(rel='stylesheet', href='css/normalize.min.css')
+    link(rel='stylesheet', href='css/main.css')
+
+  body
+    .header-container
+      header.wrapper
+        h1.title J Elliott Heating and Air
+    .main-container
+      .wrapper
+        article
+          header
+            h1 Heating and Air-conditioning Giveaway!
+            p
+              | To show gratitude to the Harrodsburg community supporting him through his first year of independent business, Jonathan Elliott of J Elliott Heating and Air will give away one Carrier Heating and Air-conditioning unit to a member of the Harrodsburg community.
+            button#submit Sign up!
+      // #main
+    // #main-container
+    #form
+      h1 Sign up for the Giveaway!
+      form#form
+        fieldset
+          legend Contact Info
+          label(for='name') Name:
+          input#name(type='text', ,='', name='user_name')
+          label(for='phone') Telephone:
+          input#phone(type='tel', ,='', name='user_phone')
+          label(for='email') Email:
+          input#email(type='email', ,='', name='user_email')
+          label(for='address') Address:
+          input#address(type='text', ,='', name='user_address')
+          label(for='newsletter') Would you like to sign up for our newsletter?
+          input#newsletter(type='checkbox', ,='', value='newsletter', name='newsletter')
+          button#submit Submit Entry
+    .footer-container
+      footer.wrapper
+        p © HannahElliott 2016
